@@ -1,4 +1,3 @@
-// import {Routes, Route} from 'react';
 import './AddTree';
 import AddTree from './AddTree';
 import './App.css';
@@ -6,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <>
-     <AddTree/>
+      <AddTree/>
     </>
   );
 }

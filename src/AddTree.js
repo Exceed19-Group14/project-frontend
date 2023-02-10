@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import SubmitButton from './SubmitButton';
+import TextBox from './TextBox';
 
 const AddTree = () => {
     return (
@@ -9,22 +11,22 @@ const AddTree = () => {
             <div >
             <p>Name</p>
             <div className='idk'>
-            <input className='Txt' type='text' placeholder='Your Plant Name'></input>
+            <TextBox inside='Your Plant Name'/>
             </div>
             <div>
             <p>Date</p>
-            <input className='Txt' type='text' placeholder='Date'></input>
+            <TextBox inside='Date'/>
             </div>
             <div>
             <p>Humidity</p>
-            <input className='Txt' type='text' placeholder='Humidity'></input>
+            <TextBox inside='Humidity'/>
             </div>
             <p>Light</p>
-            <input className='Txt' type='text' placeholder='Light'></input>
+            <TextBox inside='Light'/>
             </div>
         </div>
         <p className="Line"> _______________________________________________________________________________________</p>
-      <button className='SubmitButton' type="Button">Submit</button>
+        <SubmitButton/>
      </div>
     )
 }
