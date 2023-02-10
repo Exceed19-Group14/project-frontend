@@ -1,0 +1,28 @@
+.a{
+    background-color: rgba(red, green, blue, alpha);
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    color: #544139;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 25%;
+    border:#544139 2px solid;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+.a:hover{
+    background-color: #544139;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    color: #ffebd2;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 25%;
+    border: #544139 2px solid;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
