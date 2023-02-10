@@ -14,12 +14,12 @@ const AddTree = () => {
             <TextBox inside='Your Plant Name'/>
             </div>
             <div>
-            <p>Moisture</p>
-            <TextBox inside='Moisture'/>
-            </div>
-            <div>
             <p>Temperature</p>
             <TextBox inside='Temperature'/>
+            </div>
+            <div>
+            <p>Moisture</p>
+            <TextBox inside='Moisture'/>
             </div>
             <p>Light</p>
             <TextBox inside='Light'/>
