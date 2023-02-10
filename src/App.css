@@ -38,11 +38,12 @@
 }
 
 .SubmitButton{
-  background-color: #00008B;
-  border-style: none;
+  background-color: #FFFDD0;
+  border: 1px solid;
+  border-color: #D3D3D3;
   font-size: 35px;
-  color: white;
-  margin-top: 50px;
+  color: black;
+  margin-top: 40px;
   margin-left: 620px;
   text-align: right;
   padding: 0.5em 1em;
@@ -53,12 +54,13 @@
  
  .Input {
    font-size: 25px;
-   margin-top: 125px;
+   margin-top: 100px;
    margin-left: 325px;
    display: flex;
  }
 
  .Txt {
+   font-size: 14px;
    width: 290px;
    border: 2px solid;
    border-color: #D3D3D3;
@@ -67,12 +69,14 @@
 
  .Line {
   margin-left: 350px;
-  margin-top: 70px;
+  margin-top: 60px;
   color: #D3D3D3;
  }
 
  #rectangle { 
   margin-right: 150px;
+  border: 2px solid;
+  border-color: #D3D3D3;
   width:325px;
   height:450px;
   background:#FFFDD0;
@@ -80,4 +84,9 @@
 
 .idk {
   display: flex;
+}
+
+.headline {
+  text-align: center;
+  font-size: 50px;
 }

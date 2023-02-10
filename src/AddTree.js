@@ -3,6 +3,7 @@ import React from 'react'
 const AddTree = () => {
     return (
      <div>
+        <h1 className='headline'>Add New Tree</h1>
         <div className='Input'>
             <div id='rectangle'></div>
             <div >
